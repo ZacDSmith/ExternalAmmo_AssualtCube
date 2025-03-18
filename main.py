@@ -10,7 +10,6 @@
 
 # ammo_decrement = base_address + 0xC73EF
 # utility.nopBytes(handle, ammo_decrement, 2)
-
 # current_ammo_base = base_address + 0x0016F338
 # current_ammo_address = utility.FindDMAAddy(handle, current_ammo_base, [0x0, 0xB8, 0x140], 32)
 # kernel32.WriteProcessMemory(handle, current_ammo_address, ctypes.byref(ctypes.c_int(1337)), ctypes.sizeof(ctypes.c_int), None)
